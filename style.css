@@ -11,12 +11,15 @@ body{
     #controle{
         display: block;
     }
+    .cav{
+        width: 100%;
+    }
     .botao{
         margin-top: 20px;
 
     }
     .row{
-        width: 360px;
+        width: 100%;
         display: flex;
         justify-content: center;
         margin-left: 150px;
