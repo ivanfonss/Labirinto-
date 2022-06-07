@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+
+</head>
+<body>
+	<div calss="cav"><canvas width="640" height="640" style="border: solid;"></div>
+	<section id="controle">
+	<div><input type="submit" value="⇧"  class="botao" id="up-press"></div>
+	<div class="row">
+	<input type="submit" value="⇦"  class="botao" id="left-press" onkeydown="mvLeft=true" onkeyup="mvLeft=false">
+	<input type="submit" value="✙"  class="botao" id="stop-press" >
+	<input type="submit" value="⇨"  class="botao" id="right-press" >
+	</div>
+	<div><input type="submit" value="⇩"  class="botao" id="down-press"></div>
+	</section>
+	<script src="js/script.js"></script>
+</body>
+</html>

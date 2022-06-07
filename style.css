@@ -1,0 +1,71 @@
+
+body{
+   margin-top: 20px;
+   text-align: center;
+   background-color: rgb(211, 211, 211);
+}
+#controle{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    #controle{
+        display: block;
+    }
+    .botao{
+        margin-top: 20px;
+
+    }
+    .row{
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+    }
+    #left-press, #right-press{
+        width: 300px;
+        height: 100px;
+        margin-right: 20px;
+        border: solid 5px black ;
+        font-size: 60px;
+        color: aliceblue;
+        
+    }
+    #up-press, #down-press{
+        margin-left:270px ;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+        border: solid 5px black ;
+        background-color: gray;
+        color: aliceblue;
+        font-size: 60px;
+    }
+    #up-press{
+        border-radius: 60px 60px 0 0;
+        margin-top: 150px;
+        
+    }
+    #down-press{
+        border-radius:  0 0 60px 60px;
+        
+    }
+    #left-press{
+        border-radius: 60px 0  0 60px;
+        background-color: gray;
+        color: aliceblue;
+    }
+    #right-press{
+        border-radius: 0 60px 60px 0 ;
+        background-color: gray;
+        color: aliceblue;
+    }
+    #stop-press{
+        width: 300px;
+        height: 100px;
+        margin-right: 20px;
+        border: solid 5px black ;
+        background-color: gray;
+        color: aliceblue;
+        font-size: 60px;
+    }
+}
